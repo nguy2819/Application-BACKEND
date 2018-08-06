@@ -1,5 +1,5 @@
 - Open new project
-- Index.js file - zeit/icro GitHub
+- Index.js file - [zeit/icro GitHub](https://github.com/zeit/micro)
 - Terminal: npm install —save micro
 - Npm init
 - In the package.json: “scripts”: { “start”: “micro -l tcp://localhost:4000”}
@@ -7,6 +7,7 @@
 
 - Make a file in src: .babelrc 
 - Type in .babelrc: {“presets”: [“env”]}
+
 
 ## src/package.json
 ```
@@ -73,7 +74,7 @@ export default cors(router(
 ))
 ```
 
-## src/db/people.js
+## src/db/people.js  ***[NeDB Basic querying](https://github.com/louischatriot/nedb#basic-querying)***
 ```
 import Datastore from 'nedb-promise'
 
